@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ashr​​ibad Behera | Full-Stack AI Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card: #161b22;
+      --text: #e6edf3;
+      --muted: #9da7b3;
+      --accent: #4A00E0;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 80px 20px;
+    }
+
+    h1, h2 {
+      font-weight: 800;
+    }
+
+    h1 {
+      font-size: 56px;
+      text-align: center;
+      animation: fadeUp 1s ease forwards;
+    }
+
+    h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: var(--accent);
+    }
+
+    p {
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .subtitle {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 22px;
+      animation: fadeUp 1.2s ease forwards;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 26px;
+      border-radius: 8px;
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 30px rgba(74,0,224,0.4);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 25px;
+      border-radius: 14px;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      animation: fadeUp 1.3s ease forwards;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    }
+
+    ul {
+      list-style: none;
+      margin-top: 10px;
+    }
+
+    ul li::before {
+      content: "▹";
+      color: var(--accent);
+      margin-right: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      color: var(--muted);
+      border-top: 1px solid #222;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(25px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <section>
+    <h1>Ashr​​ibad Behera</h1>
+    <p class="subtitle">
+      Full-Stack AI | Machine Learning | Generative AI Developer
+    </p>
+
+    <p style="text-align:center; margin-top:25px;">
+      I build intelligent, scalable systems where modern web engineering meets AI.
+    </p>
+
+    <div style="text-align:center;">
+      <a class="btn" href="https://www.linkedin.com/in/asis027" target="_blank">
+        Connect on LinkedIn
+      </a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section>
+    <h2>About Me</h2>
+    <p>
+      Computer Science undergraduate focused on Full-Stack Development, Artificial Intelligence,
+      Machine Learning, and Generative AI. Experienced in building production-ready ML pipelines,
+      scalable backend systems, and intelligent applications.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section>
+    <h2>Skills</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>AI / ML / GenAI</h3>
+        <ul>
+          <li>Machine Learning</li>
+          <li>Generative AI</li>
+          <li>Computer Vision</li>
+          <li>ML Pipelines</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Full-Stack</h3>
+        <ul>
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>Node.js</li>
+          <li>REST APIs</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Cloud & Tools</h3>
+        <ul>
+          <li>AWS</li>
+          <li>Docker</li>
+          <li>Git & GitHub</li>
+          <li>Linux</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section>
+    <h2>Experience</h2>
+    <div class="card">
+      <h3>AI & Machine Learning Intern</h3>
+      <p>
+        Worked on production-level ML pipelines, intelligent systems, and model integration.
+        Focused on performance, scalability, and real-world deployment.
+      </p>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section>
+    <h2>Education</h2>
+    <p>
+      <strong>B.Tech in Computer Science Engineering (2024–2028)</strong><br/>
+      Biju Patnaik University of Technology, Odisha
+    </p>
+  </section>
+
+  <!-- CONTACT -->
+  <section>
+    <h2>Contact</h2>
+    <p>
+      Open to internships, freelance opportunities, and open-source collaboration.
+    </p>
+    <p>
+      LinkedIn: <a href="https://www.linkedin.com/in/asis027" style="color:var(--accent)">linkedin.com/in/asis027</a>
+    </p>
+  </section>
+
+  <footer>
+    © 2025 Ashribad Behera · Built with HTML & CSS
+  </footer>
+
+</body>
+</html>
